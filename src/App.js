@@ -57,7 +57,7 @@ function App() {
 
     
     <div  className="bg-indigo-200 w-full h-screen items-center justify-center flex backdrop-blur-sm" >
-      <div className="relative overflow-hidden hover:scale-150 transform transition duration-500 scale-100 h-2/4 w-1/6 bg-indigo-400 opacity-50 shadow-2xl rounded-xl ">
+      <div className="relative overflow-hidden hover:scale-150 transform transition duration-500 scale-100 h-[529px] w-[308.328px] bg-indigo-400 opacity-50 shadow-2xl rounded-xl ">
         <div className="h-1/3 items-end justify-between flex flex-wrap">
         
           <p id='calc' className="hover:text-zinc-700 transform transition duration-500 mt-[-30px] px-2 font-medium text-2xl text-indigo-800 ">
