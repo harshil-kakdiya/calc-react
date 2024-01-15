@@ -18,7 +18,7 @@ function App() {
         }
       })
       var keyname=e.key
-      if(e.key<=9 || e.key==='+' || e.key==='-' || e.key==='*' || e.key==='/'){
+      if(e.key<=9 || e.key==='+' || e.key==='-' || e.key==='*' || e.key==='/' || e.key==='.'){
        
         setvalue(value+e.key)
         console.log(keyname)
