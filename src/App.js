@@ -19,7 +19,7 @@ function App() {
       })
       var keyname=e.key
       if(e.key<=9 || e.key==='+' || e.key==='-' || e.key==='*' || e.key==='/'){
-       var keypress=document.getElementById('root')
+       
         setvalue(value+e.key)
         console.log(keyname)
          
