@@ -77,6 +77,8 @@ function App() {
               type="button"
               onClick={(e)=>{
                 setvalue(" ")
+                document.getElementById('calc').style.color=""
+          document.getElementById('textinput').style.color=""
               }}
               value="AC"
               className="hover:shadow-purple-950 transform active:bg-white transition duration-500 bg-indigo-800 w-2/4 h-full  rounded-md shadow-xl border-purple-950 text-lg  text-white"
@@ -222,6 +224,9 @@ function App() {
                 try {
                   
                   setvalue(eval(value))
+                  // if(e.key<=9){
+                  //   setvalue(e.key)
+                  // }
                 } catch (error) {
                   setvalue("ERROR")
                 }
