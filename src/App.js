@@ -42,7 +42,7 @@ function App() {
           
           setvalue(eval(value))
         } catch (error) {
-          setvalue("KHOTI GA*D SARI KARMA!")
+          setvalue("ERROR!")
           document.getElementById('calc').style.color = "red";
           document.getElementById('textinput').style.color="red"
           
