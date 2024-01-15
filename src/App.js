@@ -42,7 +42,7 @@ function App() {
           
           setvalue(eval(value))
         } catch (error) {
-          setvalue("KHOTI GAN*D SARI KARMA!")
+          setvalue("KHOTI GA*D SARI KARMA!")
           document.getElementById('calc').style.color = "red";
           document.getElementById('textinput').style.color="red"
           
@@ -104,7 +104,7 @@ function App() {
               value="7"
               className={numStyle}
               />
-            <input
+             <input
               type="button"
               value="8"
               onClick={(e)=>{
